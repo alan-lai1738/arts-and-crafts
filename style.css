@@ -1,0 +1,60 @@
+/* Heading modifications */
+
+
+h1 {
+    background-image: url("pattern.png");
+    text-align: center;
+    font-size: 100px;
+    color: Khaki;
+}
+
+/* All fonts should be Helvetica */
+h1, h2, h3, p {
+    font-family: Helvetica;
+}
+
+h1 {
+    display: block;
+    /* font-size: 2em; */
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h2 {
+    display: block;
+    /* font-size: 1.5em; */
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+/* Item Headers: Should be bigger and White font over a solid color */
+.item h2 {
+    color: white;
+    font-size: 32px;
+}
+
+/* Prices should be blue, and stand out*/
+.price {
+    color: Blue;
+    font-weight: bold;
+}
+
+/* Solid Color backgrounds for items: Brushes, Frames, and Paint */
+
+#brush {
+    background-color: MediumSpringGreen;
+}
+
+#frame {
+    background-color: LightCoral;
+}
+
+#paint {
+    background-color: SkyBlue;
+}
